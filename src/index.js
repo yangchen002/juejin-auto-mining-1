@@ -11,7 +11,7 @@ const miningApi = require('./api/mining')();
 const jwt = require('jsonwebtoken');
 const firstData = require('./utils/first');
 
-//11
+//
 if(!COOKIE) {
   message('获取不到cookie，请检查设置')
 } else {
