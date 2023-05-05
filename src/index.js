@@ -13,6 +13,7 @@ const firstData = require('./utils/first');
 
 //
 if(!COOKIE) {
+
   message('获取不到cookie，请检查设置')
 } else {
   async function junJin() {
